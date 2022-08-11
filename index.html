@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="#" />
+    <!-- css file -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Javascript file -->
+    <script src="script.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <body class="flex">
+    <div class="container">
+      <div class="app-title">
+        <p>weather</p>
+      </div>
+      <div class="notification">
+        <p>User Denied Geolocation</p>
+      </div>
+      <div class="weather-container">
+        <div class="weather-icon">
+          <img
+            class="icon"
+            src="http://openweathermap.org/img/wn/02d@2x.png"
+            alt="weather icon"
+          />
+        </div>
+        <div class="temperature-value">
+          <p>- °<span>C</span></p>
+        </div>
+        <div class="temperature-description">
+          <p>-</p>
+        </div>
+        <div class="location">
+          <p>-</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- country -->
+
+    <div class="container country flex flex-column">
+      <div class="flag">
+        <img class="flagIcon" src="" alt="" />
+      </div>
+      <div class="name">
+        <p class="data">name.official</p>
+      </div>
+      <div class="population">
+        <p class="data">population 123156412</p>
+      </div>
+      <div class="currencies">
+        <p class="data">currencies.egp.name currencies.egp.symbol</p>
+      </div>
+      <div class="borders">
+        <p class="data bordersData active">neighbors:</p>
+      </div>
+    </div>
+    <div class="container country neighbor flex flex-column">
+      <div class="flagN">
+        <img class="flagNIcon" src="" alt="" />
+      </div>
+      <div class="nameN">
+        <p class="data">name.official</p>
+      </div>
+      <div class="populationN">
+        <p class="data">population 123156412</p>
+      </div>
+      <div class="currenciesN">
+        <p class="data">currencies.egp.name currencies.egp.symbol</p>
+      </div>
+    </div>
+  </body>
+</html>
